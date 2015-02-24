@@ -1,55 +1,55 @@
 
 /*THIS IS A COMMENT IN CSSBLUE*/
 
+body{
+	font-family: sans-serif;
+}
 section{
-	background-color: rgb(228, 226, 226);
-	padding: 5%;
-	margin: 5%;
-
+	border: 1px solid black;
+	margin:25px;
+	
 }
-
-nav{ 
-	background-color: bisque;
-	padding: 5%;
-	margin: 5%;
-}
-
 
 li{
-	background-color: cornsilk;
-	padding: 5%;
-	margin: 5%;
-	border-radius: 20px;
+	text-decoration: none;
+	background-color: lightgray;
 }
 
+/*header*/
 
 
-h1{
+header>a{
+	float: left;
+
+}
+
+nav{
+	background-color: gray;
+	margin-left: 150px;
+	width:500px;
+
+}
+
+.login{
+	background-color: white;
+	float: right;
 	
-	font-size: 45px;
-	color:green;
-	background-color: black;
+	margin:none;
 }
 
-h2{
-	font-size: 35px;
-	color: #FFFFAA;
-	background-color: navy ;
-}
 
-h3{
-	color: #CCA300;
-}
 
-p{
-	font-size: 25px;
-	color: #CCA300;
-
+nav ul li{
+	display: inline;
+	text-decoration: none;
+	padding-left: 10px;
 }
 
 a{
-	color:blue;
+	text-decoration: none;
 }
+
+
 
 
 
