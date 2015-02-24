@@ -1,0 +1,55 @@
+
+/*THIS IS A COMMENT IN CSSBLUE*/
+
+section{
+	background-color: rgb(228, 226, 226);
+	padding: 5%;
+	margin: 5%;
+
+}
+
+nav{ 
+	background-color: bisque;
+	padding: 5%;
+	margin: 5%;
+}
+
+
+li{
+	background-color: cornsilk;
+	padding: 5%;
+	margin: 5%;
+	border-radius: 20px;
+}
+
+
+
+h1{
+	
+	font-size: 45px;
+	color:green;
+	background-color: black;
+}
+
+h2{
+	font-size: 35px;
+	color: #FFFFAA;
+	background-color: navy ;
+}
+
+h3{
+	color: #CCA300;
+}
+
+p{
+	font-size: 25px;
+	color: #CCA300;
+
+}
+
+a{
+	color:blue;
+}
+
+
+
