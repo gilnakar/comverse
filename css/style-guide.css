@@ -1,0 +1,187 @@
+
+h1, h2, h3, p, a, li{
+	font-family:sans-serif;
+	text-decoration: none;
+}
+
+.style-heading-1{
+	font-size: 45px;
+	line-height: 60px;
+	margin-bottom: 50px;
+	display: inline-block;
+	border: 1px solid white;
+	box-shadow: -5px 5px 5px #313131;
+	padding-left: 10px;
+}
+.style-heading-2{
+	font-size: 35px;
+	line-height: 40px;
+	margin-bottom: 50px;
+	border: 1px solid white;
+	box-shadow: -5px 5px 5px #313131;
+	padding-left: 10px;
+}
+
+div:first-of-type{
+	margin:50px;
+}
+
+#style-guide{
+	
+	background-color: lightgray;
+	font-size: 25px;
+	line-height: 40px;
+	margin: 50px;
+	box-shadow: -5px 5px 5px #313131;
+	padding-left: 10px;
+
+}
+
+section{
+	height: 500px;	
+	margin: 50px;
+	
+}
+
+/*MAIN WEBSITE LOGO*/
+
+.logo-header h1{
+	background:  url(../images/comverse-logo.png);
+	width:185px;
+	height: 62px;
+	text-indent: -9999px;
+}
+
+
+/*MAIN NAVIGATION MENU*/
+
+.navigation-menue{
+	margin-top: 50px;
+	float: left;
+	width:800px;
+	height: 90px;
+}
+
+.navigation-menue>ul{
+	float:right;
+	text-align: center;
+	
+}
+
+.navigation-menue>ul>li{
+	float:left;
+	width: 150px;
+	height: 14px;
+	display: inline-block;
+	border-right: 1px lightgray solid;
+}
+
+.navigation-menue>ul li a{
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	
+	color: #585951;
+}
+
+.navigation-menue>ul>li>ul{
+	display:none;
+}
+
+.navigation-menue>ul>li:hover>ul{
+	display: block;
+	background: white;
+	
+}
+
+.navigation-menue>ul>li:hover>ul  {
+	margin-top: 20px;
+	border: 1px gray solid;
+	width: 800px;
+	box-shadow: -5px 5px 5px gray;
+}
+
+.navigation-menue>ul>li:hover ul li {
+	text-align: left;
+	line-height: 2em;
+	
+}
+
+.navigation-menue>ul>li:hover>ul li a{
+	text-transform: capitalize;
+	text-align: left;
+	padding-left: 50px;
+	width: 500px;
+}
+
+/*MINI-LEFT NAVIGATION MENU*/
+
+/*LANGUAGE SELECT*/
+
+.lang-select{
+	display: inline-block;
+	color: #585951;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.lang-select::before{
+	content: url(../images/dropdown-arrow.png)no-repeat center;;
+	position: absolute;
+	margin-left: 20px;
+}
+
+#cusotmer-login{
+	margin-left: 25px;
+}
+
+#cusotmer-login::before {
+	content: url(../images/search-devider.png);
+	position: absolute;
+
+
+	
+}
+
+
+/*SEARCH BOX FORM*/
+
+.searchbox{
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #d2d2d2;
+	width: 150px;
+	height: 22px;
+	border-radius: 6px;
+}
+
+
+
+input[type="submit"] {
+	background: url(../images/search.png) no-repeat center ;
+	text-indent: -9999px;
+	width: 26px;
+	outline: 0;
+	border:none;
+	cursor: pointer;
+}
+
+input[type="search"] {
+	
+	display: inline;
+	width: 120px;
+	outline: 0;
+	border:none;
+	cursor: pointer;
+	font-size: 10px;
+	margin-top: 3px;
+}
+
+.searchbox::before {
+	content: url(../images/search-devider.png);
+	position: absolute;
+	margin-left: 125px;
+	
+}
+
+
