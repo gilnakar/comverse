@@ -252,6 +252,7 @@ input[type="search"] {
 }
 .slides li{
 	display: inline-block;
+	vertical-align: top;
 	
 	width:290px;
 	height:170px;
