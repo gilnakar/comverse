@@ -554,6 +554,104 @@ margin-top: 5rem;
 	border-top: 1px dotted white;
 }
 
+/*******************************************/
+/*SUCCESS STORIES SECTION*/
+/*******************************************/
+.success{
+	display:block;
+	background:white;
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height: 55rem;
+	background-color:#ececec;
+	z-index: 20;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.success-wrap{
+	display: block;
+	width: 96rem;
+	margin:auto;
+	position:relative;
+		
+}
 
 
+.success-wrap h1{
+	font-size: 4.2rem;
+	line-height: 4.5rem;
+	color:#565656;
+	padding-top: 7rem;
+	text-align: center;
+	text-transform: uppercase;
 
+
+}
+
+.success ul{
+	float: left;
+}
+
+.success ul:nth-of-type(2), .success ul:first-of-type{
+	width: 35rem;
+	height: 32rem;
+	background-color: red;
+	margin-right: 1rem;
+
+}
+
+.success ul:nth-of-type(3){
+	width: 23rem;
+	height: 32rem;
+	background-color: red;
+}
+.success ul li{
+	float:left;
+}
+
+/*******************************************/
+/*SUCCESS SECTION BLUE BUTTON*/
+/*******************************************/
+.success div:last-of-type{
+	clear:left;
+	background-color: red;
+	width:18rem;
+	height: 3.5rem;
+	margin: 0 auto;
+	margin-top: 8rem;
+}
+
+.success .blue-button{
+	
+	width:18rem;
+	height: 3.5rem;
+	background:linear-gradient(to bottom, rgba(47,151,203,0.9) 0%,rgba(17,136,196,0.9) 100%);
+	border:none;
+	border-radius: 5px;
+	text-align: left;
+	box-shadow: -4px 4px 4px 0 rgba(0, 0, 0, .2);
+	cursor: pointer;
+	margin-top: 2rem;
+}
+.success .blue-button span{
+	color:white;
+	font-size: 12px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+.success .blue-button:hover {
+	box-shadow: -1px 1px  1px  gray;
+}
+
+
+.success .blue-button:hover span {
+	font-weight: 600;
+}
+
+.success .blue-button>span:after{
+	content: url(../images/link-arrow.png) no-repeat center ;
+	margin-left: 2rem;
+}
