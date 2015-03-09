@@ -599,7 +599,6 @@ margin-top: 5rem;
 }
 
 
-
 .success ul:nth-of-type(2), .success ul:first-of-type{
 	width: 35rem;
 	height: 32rem;
@@ -636,9 +635,7 @@ margin-top: 5rem;
 	position:absolute;
 	left: 13rem;
 	top: 1.7rem;
-
 }
-
 
 .big-content cite{
 	position:absolute;
@@ -656,6 +653,8 @@ margin-top: 5rem;
 .big-content cite p:last-of-type{
 	font-size: 1.4rem;
 	text-transform: capitalize;
+	padding-top: 1rem;
+	color:#565656;
 }
 
 .big-content img:last-of-type{
@@ -668,9 +667,9 @@ margin-top: 5rem;
 	clear:both;
 }
 
-/*
-
-*/
+/*******************************************/
+/*SUCCESS SECTION - MID CONTENT IMG AND QUOTE */
+/*******************************************/
 
 .mid-content{ 
 	height: 20rem;
@@ -705,6 +704,8 @@ margin-top: 5rem;
 .mid-content cite p:last-of-type{
 	font-size: 1.4rem;
 	text-transform: capitalize;
+	padding-top: 1rem;
+	color:#565656;
 }
 
 .mid-content img:last-of-type{
