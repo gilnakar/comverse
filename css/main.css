@@ -561,7 +561,7 @@ margin-top: 5rem;
 	top:0;
 	left:0;
 	width:100%;
-	height: 55rem;
+	height: 60rem;
 	background-color:#ececec;
 	z-index: 20;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
@@ -667,6 +667,26 @@ margin-top: 5rem;
 	clear:both;
 }
 
+#big-content-hr{
+	position: relative;
+	top:14rem;
+	width: 90%;
+	border-bottom: 0;
+	border-color:#dddddd;
+	background-color: #dddddd;
+}
+
+
+/*on hover try*/
+/*.big-content:hover  {
+	opacity: 0;
+    filter: alpha(opacity=0); 
+}*/
+
+
+
+
+
 /*******************************************/
 /*SUCCESS SECTION - MID CONTENT IMG AND QUOTE */
 /*******************************************/
@@ -725,9 +745,11 @@ margin-top: 5rem;
 	background-color: white;
 }
 
+
 .small-content img{
 	width: 11rem;
 }
+
 
 
 ul:first-of-type .small-content {
@@ -741,6 +763,16 @@ ul:first-of-type .small-content:nth-of-type(3) {
 
 ul:first-of-type .small-content:nth-of-type(4) {
 	left: 24rem;
+}
+
+/*on hover*/
+.small-content a:hover{
+	content: url(../images/small-content-hover.png);
+	width: 11rem;
+}
+.small-content a:hover img{
+	opacity: 0;
+    filter: alpha(opacity=0);
 }
 
 /*******************************************/
@@ -814,4 +846,49 @@ ul:first-of-type .small-content:nth-of-type(4) {
 .success .blue-button>span:after{
 	content: url(../images/link-arrow.png) no-repeat center ;
 	margin-left: 2rem;
+}
+
+
+/*******************************************/
+/*FOOTER SECTION*/
+/*******************************************/
+footer{
+	display:block;
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height: 45rem;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
+	background-color: #333;
+}
+
+.footer-nav{
+	display: block;
+	width: 96rem;
+	margin:auto;
+	position:relative;
+
+}
+
+.footer-nav>ul a{
+	color:white;
+	font-size: 1.2rem;
+	font-weight: 100;
+	text-transform: capitalize;
+	line-height: 2.2rem;
+}
+
+.footer-nav ul li h2 a{
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 4rem;
+}
+
+.footer-nav>ul>li {
+	float: left;
+	margin-right: 7.5rem;
+	margin-top: 3rem;
+
 }

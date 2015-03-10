@@ -586,5 +586,257 @@ margin-top: 5rem;
 	border-top: 1px dotted white;
 }
 
+/*******************************************/
+/*SUCCESS STORIES SECTION*/
+/*******************************************/
+.success{
+	display:block;
+	background:white;
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height: 55rem;
+	background-color:#ececec;
+	z-index: 20;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.success-wrap{
+	display: block;
+	width: 96rem;
+	margin:auto;
+	position:relative;
+		
+}
+
+
+.success-wrap h1{
+	font-size: 4.2rem;
+	line-height: 4.5rem;
+	color:#565656;
+	padding-top: 7rem;
+	margin-bottom: 5.5rem;
+	text-align: center;
+	text-transform: uppercase;
+
+
+}
+
+/*******************************************/
+/*SUCCESS SECTION 3 MAIN LISTS*/
+/*******************************************/
+
+.success ul{
+	float:left;
+	position: relative;
+	
+}
+
+
+.success ul:nth-of-type(2), .success ul:first-of-type{
+	width: 35rem;
+	height: 32rem;
+	margin-right: 1rem;
+
+}
+
+.success ul:nth-of-type(3){
+	width: 23rem;
+	height: 32rem;
+}
+
+/*******************************************/
+/*SUCCESS SECTION - BIG CONTENT IMG AND QUOTE */
+/*******************************************/
+.big-content{
+	height: 20rem;
+	width: 35rem;
+	background-color: white;
+	position:relative;
+} 
+
+.big-content img:first-of-type{
+	position:absolute;
+	left: 1.7rem;
+	top: 1.7rem;
+}
+
+.big-content blockquote{
+	width: 18rem;
+	color: #565656;
+	font-size: 1.7rem;
+	line-height: 2.5rem;
+	position:absolute;
+	left: 13rem;
+	top: 1.7rem;
+}
+
+.big-content cite{
+	position:absolute;
+	left: 1.7rem;
+	top: 15rem;
+}
+
+.big-content cite p:first-of-type{
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	color:#3aa6db;
+	width: 20rem;
+}
+
+.big-content cite p:last-of-type{
+	font-size: 1.4rem;
+	text-transform: capitalize;
+	padding-top: 1rem;
+	color:#565656;
+}
+
+.big-content img:last-of-type{
+	position:absolute;
+	left: 22rem;
+	top: 14.5rem;
+}
+
+.success ul li:nth-of-type(2){
+	clear:both;
+}
+
+#big-content-hr{
+	position: relative;
+	top:14rem;
+	width: 90%;
+	border-bottom: 0;
+	border-color:#dddddd;
+	background-color: #dddddd;
+}
+
+
+/*on hover try*/
+/*.big-content:hover  {
+	opacity: 0;
+    filter: alpha(opacity=0); 
+}*/
+
+
+
+
+
+/*******************************************/
+/*SUCCESS SECTION - MID CONTENT IMG AND QUOTE */
+/*******************************************/
+
+.mid-content{ 
+	height: 20rem;
+	width: 23rem;
+	background-color: white;
+	position:relative;
+}
+
+.mid-content blockquote{
+	width: 18rem;
+	color: #565656;
+	font-size: 1.7rem;
+	line-height: 2.5rem;
+	position:absolute;
+	left:1.7rem;
+	top: 1.7rem;
+}
+
+.mid-content cite{
+	position:absolute;
+	left: 1.7rem;
+	top: 15rem;
+}
+
+.mid-content cite p:first-of-type{
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	color:#3aa6db;
+	width: 20rem;
+}
+
+.mid-content cite p:last-of-type{
+	font-size: 1.4rem;
+	text-transform: capitalize;
+	padding-top: 1rem;
+	color:#565656;
+}
+
+.mid-content img:last-of-type{
+	position:absolute;
+	left: 13rem;
+	top: 12rem;
+	width: 80px;
+}
+
+/*******************************************/
+/*SUCCESS SECTION - IMG SECTION -1 */
+/*******************************************/
+.small-content{
+	position: absolute;	
+	height: 11rem;
+	width: 11rem;
+	background-color: white;
+}
+
+
+.small-content img{
+	width: 11rem;
+}
+
+
+
+ul:first-of-type .small-content {
+	top: 21rem;
+}
+
+
+ul:first-of-type .small-content:nth-of-type(3) {
+	left: 12rem;
+}
+
+ul:first-of-type .small-content:nth-of-type(4) {
+	left: 24rem;
+}
+
+/*on hover*/
+.small-content a:hover{
+	content: url(../images/small-content-hover.png);
+	width: 11rem;
+}
+.small-content a:hover img{
+	opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+/*******************************************/
+/*SUCCESS SECTION - IMG SECTION -2 */
+/*******************************************/
+.success ul:nth-of-type(2) .big-content{
+	top:12rem;
+}
+
+.success ul:nth-of-type(2) .small-content:nth-of-type(2){
+	left:12rem;
+} 
+
+.success ul:nth-of-type(2) .small-content:nth-of-type(3){
+	left:24rem;
+} 
+
+/*******************************************/
+/*SUCCESS SECTION - IMG SECTION -3 */
+/*******************************************/
+
+
+.success ul:nth-of-type(3) .small-content:nth-of-type(2){
+	top:21rem;
+} 
+
+.success ul:nth-of-type(3) .small-content:nth-of-type(3){
+	top:21rem;
+	left:12rem;
+} 
 
 
