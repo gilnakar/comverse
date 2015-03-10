@@ -637,6 +637,13 @@ margin-top: 5rem;
 	top: 1.7rem;
 }
 
+.big-content blockquote:before{
+	content: url(../images/quote-grey.png) no-repeat center
+}
+.big-content blockquote:after{
+	content: url(../images/quote-grey2.png) no-repeat center
+}
+
 .big-content cite{
 	position:absolute;
 	left: 1.7rem;
@@ -706,6 +713,12 @@ margin-top: 5rem;
 	position:absolute;
 	left:1.7rem;
 	top: 1.7rem;
+}
+.mid-content blockquote:before{
+	content: url(../images/quote-grey.png) no-repeat center
+}
+.mid-content blockquote:after{
+	content: url(../images/quote-grey2.png) no-repeat center
 }
 
 .mid-content cite{
@@ -892,10 +905,11 @@ footer{
 
 .footer-nav>ul>li {
 	float: left;
-	margin-right: 7.5rem;
+	margin-right: 6rem;
 	margin-top: 3rem;
 
 }
+
 
 /*******************************************/
 /*BLOG POST BOX*/
@@ -1018,11 +1032,6 @@ footer{
 	width: 25px;
 	height: 25px;
 	content: url(../images/socialMenuIcon-youtube.png) no-repeat center ;
-}
-#you-tube a{
-	display: block;
-	height: 25px;
-	width: 25px;
 }
 
 #tweeter{
