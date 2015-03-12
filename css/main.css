@@ -1,11 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@font-face {
+    font-family: Formata-Light;
+    src: url(../fonts/Formata-Light.ttf);
+}
 
 html{
 	font-size: 10px;
 }
 
 h1, h2, h3, p, a, li{
-	font-family:'Open Sans' ,sans-serif;
+	font-family: Formata-Light;
+	font-weight: 400;
 	text-decoration: none;
 }
 
@@ -42,7 +46,7 @@ header{
 
 .logo-header h1{
 	background:  url(../images/comverse-logo.png) no-repeat;
-	width:185px;
+	width:18.5rem;
 	height: 7rem;
 	text-indent: -9999px;
 	float: left;
@@ -317,7 +321,7 @@ input[type="search"] {
 }
 .colored-slides li{
 	float: left;
-	vertical-align: top;
+	position: relative;
 	width:29rem;
 	height:17.6rem;
 	margin-right: 3rem;
@@ -327,22 +331,26 @@ input[type="search"] {
 
 
 .colored-slides li a{
-	padding-left: 17px;
-	font-size: 14px;
+	padding-left: 1.7rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 	color: white;
 	
 }
 
+.colored-slides li a{
+position: absolute;
+top:13rem;
+}
+
 .colored-slides li a img{
-	margin-right: 6px;
+	margin-right: 0.6rem;
 }
 
 .colored-slides li p{
 	color: white;
 	font-size: 2.2rem;
 	line-height: 3rem;
-	font-family: 'Open Sans',  sans-serif;
 	margin-top: 2.5rem;
 	margin-bottom: 2rem;
 	margin-left: 1rem;
@@ -392,7 +400,7 @@ input[type="search"] {
 
 .solutions-icons a {
 display: inline-block;
-width: 135px;
+width: 13.5rem;
 color: white;
 vertical-align: top;
 margin-top: 5rem;
@@ -745,7 +753,7 @@ margin-top: 5rem;
 	position:absolute;
 	left: 13rem;
 	top: 12rem;
-	width: 80px;
+	width: 8rem;
 }
 
 /*******************************************/
@@ -937,7 +945,7 @@ footer{
 	color: #4ea7d3;
 	text-align: center;
 	margin-top: 3rem;
-	letter-spacing: -0.15rem;
+	
 }
 
 .blog-posts-box #blog-date {
@@ -991,7 +999,7 @@ footer{
 
 .subscribe-form{
 	position: relative;
-	left:25px;
+	left:2.5rem;
 	
 }
 
