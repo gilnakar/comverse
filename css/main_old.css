@@ -4,30 +4,13 @@
 }
 
 html{
-	font-size: 62.5%;
+	font-size: 10px;
 }
 
 h1, h2, h3, p, a, li{
 	font-family: Formata-Light;
 	font-weight: 400;
 	text-decoration: none;
-}
-
-body {
-    width:100%;
-      margin:0 auto;
-}
-
-.clearfix:before, .clearfix:after { content: " "; display: table; }
-
-.clearfix:after { clear: both; }
-
- /* apply a natural box layout model to all elements, but allowing components to change */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 
 /*******************************************/
@@ -37,7 +20,10 @@ header{
 	display:block;
 	background:white;
 	position:relative;
+	top:0;
+	left:0;
 	width:100%;
+	height: 9rem;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
 	margin:0 auto;
 	z-index: 100;
@@ -45,10 +31,8 @@ header{
 }
 
 .header-container{
-	width: 66.66666%; 
-	/*72.22222%*/
-	height: 9rem;
-	margin:0 auto;
+	width: 96rem;
+	margin:auto;
 	margin-top: 1rem;
 	position:relative;
 }
@@ -57,17 +41,15 @@ header{
 /*MAIN WEBSITE LOGO*/
 /*******************************************/
 .logo-header{
-	width: 20%;
-	float: left;
+
 }
 
 .logo-header h1{
 	background:  url(../images/comverse-logo.png) no-repeat;
-	font-size: 5rem;
-	line-height: 7rem;
-	padding-bottom: 2rem;
+	width:18.5rem;
+	height: 7rem;
 	text-indent: -9999px;
-
+	float: left;
 
 }
 
@@ -77,8 +59,9 @@ header{
 /*******************************************/
 .navigation-menu{
 	display:inline-block;
-	width:60%;
-	
+	width:60rem;
+	margin-top: 5rem;
+
 }
 
 .navigation-menu>ul{
@@ -160,34 +143,26 @@ header{
 /*******************************************/
 /*SEARCH BOX FORM*/
 /*******************************************/
-.side-menu{
-	display: inline-block;
-	position: relative;
-	width: 19%;
-	margin-bottom: 10rem;
-	
-}
-
 .searchbox{
-	position:absolute;
-	top:4rem;
-	left: 10%;
+	position: absolute;
+	left:80rem;
+	top:4.5rem;
 	background: #fff;
+	border: 1px solid #d2d2d2;
 	width: 15rem;
 	height: 2.2rem;
-	border: 1px solid #d2d2d2;
 	border-radius: 6px;
 }
+
 
 
 input[type="submit"] {
 	background: url(../images/search.png) no-repeat center ;
 	text-indent: -9999px;
+	width: 2.6rem;
+	outline: 0;
 	border:none;
-	vertical-align: middle;
-	padding-left: 1.4rem;
 	cursor: pointer;
-	
 }
 
 input[type="search"] {
@@ -216,7 +191,7 @@ input[type="search"] {
 
 .lang-select{
 	position: absolute;
-	left:10%;
+	left:80rem;
 	top:1rem;
 	
 }
