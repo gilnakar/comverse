@@ -83,12 +83,14 @@ header{
 
 .navigation-menu>ul{
 	text-align: center;
+	margin-left: 4rem;
 }
 
 .navigation-menu>ul>li{
 	float:left;
-	width: 14rem;
 	height: 5.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	
 }
 
