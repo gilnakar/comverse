@@ -2,6 +2,10 @@
     font-family: Formata-Light;
     src: url(../fonts/Formata-Light.ttf);
 }
+@media (min-width:481px) and(max-width:768px) {
+	.header-container{width:740px;}
+	
+}
 
 html{
 	font-size: 62.5%;
