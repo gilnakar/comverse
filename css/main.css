@@ -45,7 +45,7 @@ header{
 }
 
 .header-container{
-	width: 66.66666%; 
+	width: 960px; 
 	/*72.22222%*/
 	height: 9rem;
 	margin:0 auto;
