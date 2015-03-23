@@ -2,10 +2,6 @@
     font-family: Formata-Light;
     src: url(../fonts/Formata-Light.ttf);
 }
-@media (min-width:481px) and(max-width:768px) {
-	.header-container{width:740px;}
-	
-}
 
 html{
 	font-size: 62.5%;
@@ -738,7 +734,73 @@ padding:1rem;
 	width: 35rem;
 	background-color: white;
 	position:relative;
+}
+
+/*hover content change css*/
+
+.big-content:hover{
+	opacity: 0;
+	content: 
 } 
+
+#big-content-back1{
+	height: 20rem;
+	width: 35rem;
+	background-color: #3AA6DB;
+	position:absolute;
+	top:0;
+	z-index: -99;
+}
+
+
+
+#big-content-back1 blockquote{
+color: #565656;
+	font-size: 2rem;
+	line-height: 3rem;
+	padding-left: 2.5rem;
+	padding-top: 2.5rem;
+	color:white;
+
+}
+#big-content-back1 blockquote:before{
+	content: url(../images/quote-blue1.png) no-repeat center
+}
+#big-content-back1 blockquote:after{
+	content: url(../images/quote-blue2.png) no-repeat center
+}
+
+#big-content-back2{
+	height: 20rem;
+	width: 35rem;
+	background-color: #3AA6DB;
+	position:absolute;
+	bottom: 0;
+	z-index: -99;
+
+}
+#big-content-back2 blockquote{
+color: #565656;
+	font-size: 2rem;
+	line-height: 3rem;
+	padding-left: 2.5rem;
+	padding-top: 2.5rem;
+	color:white;
+}
+#big-content-back2 blockquote:before{
+	content: url(../images/quote-blue1.png) no-repeat center
+}
+#big-content-back2 blockquote:after{
+	content: url(../images/quote-blue2.png) no-repeat center
+}
+
+
+
+
+/*****************************************************************/
+
+
+
 
 .big-content img:first-of-type{
 	position:absolute;
@@ -823,6 +885,36 @@ padding:1rem;
 	background-color: white;
 	position:relative;
 }
+
+.mid-content:hover{
+	opacity: 0;
+	content: 
+}
+
+#mid-content-back{
+	height: 20rem;
+	width: 23rem;
+	background-color: #3AA6DB;
+	position:absolute;
+	top:0;
+	z-index: -99;
+
+}
+
+#mid-content-back blockquote{
+color: #565656;
+	font-size: 2rem;
+	line-height: 3rem;
+	padding-left: 1.5rem;
+	padding-top: 1.5rem;
+	color:white;
+}
+#mid-content-back blockquote:before{
+	content: url(../images/quote-blue1.png) no-repeat center
+}
+#mid-content-back blockquote:after{
+	content: url(../images/quote-blue2.png) no-repeat center
+} 
 
 .mid-content blockquote{
 	width: 18rem;
