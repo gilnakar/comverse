@@ -465,7 +465,23 @@ input[type="search"] {
 	text-align: center;
 	background:url(../images/bg-icons.jpg) no-repeat center;
 	margin:0 auto;
+	perspective: 800px;
 }
+
+.solutions-icons  a{
+	
+	position: relative;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+	-webkit-animation-fill-mode: forwards;
+ }
+
+.solutions-icons  a:hover{
+	
+   	transform: rotateY( 360deg );
+
+   	
+} 
 
 .solutions-icons ul {
 	

@@ -386,8 +386,21 @@ top:13rem;
 	text-align: center;
 	background:url(../images/bg-icons.jpg) no-repeat center;
 	margin:0 auto;
+	perspective: 800px;
 
 }
+
+.solutions-icons  a{
+	border: 1px solid black;
+	position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+ }
+
+.solutions-icons  a:hover{
+	
+  transform: rotateY( 180deg );
+} 
 
 .solutions-icons h1 {
 	font-size: 4.2rem;
