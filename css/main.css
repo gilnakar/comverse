@@ -102,7 +102,7 @@ header{
 	
 }*/
 
-.navigation-menu>ul li a{
+.navigation-menu>ul>li>a{
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	font-size: 1.4rem;
@@ -134,7 +134,8 @@ header{
 	display: block;
 	background: white;
 	margin-top: 3rem;
-	width: 80rem;
+	width: 100%;
+	height: 220px;
 	box-shadow: -4px 4px 4px 0 rgba(0, 0, 0, .2);
 	position:absolute;
 	top:6.5rem;
@@ -143,12 +144,40 @@ header{
 	
 }
 
+.sub-left{
+	width: 30%;
+	padding-top: 3rem;
+	color: rgb(51, 153 ,204);
+	float: left;
+	font-size: 1.2rem;
+}
 
-.navigation-menu>ul>li:hover ul li {
+
+
+.sub-right{
+	display: inline-block;
+	width: 30%;
+	padding-top: 3rem;
+	font-size: 1.2rem;
+	color: rgb(51, 153 ,204);
+	
+}
+
+.sub-image{
+	float: right;
+	margin: 1rem;
+	padding-left: 4rem;
+	border-left: 1px solid #999;
+}
+
+.navigation-menu>ul>li ul li {
 	text-align: left;
-	line-height: 3rem;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	text-transform: capitalize;
 
 }
+
 
 .navigation-menu>ul>li:hover>ul li a{
 	text-transform: capitalize;
@@ -740,7 +769,9 @@ padding:1rem;
 
 .big-content:hover{
 	opacity: 0;
-	content: 
+	transition: opacity 0.5s ease-in-out;
+	-moz-transition:0.5s ease-in-out;
+	-webkit-transition:0.5s ease-in-out; 
 } 
 
 #big-content-back1{
@@ -886,9 +917,13 @@ color: #565656;
 	position:relative;
 }
 
+/*hover content change css*/
+
 .mid-content:hover{
 	opacity: 0;
-	content: 
+	transition: opacity 0.5s ease-in-out;
+	-moz-transition:0.5s ease-in-out;
+	-webkit-transition:0.5s ease-in-out; 
 }
 
 #mid-content-back{
@@ -931,6 +966,7 @@ color: #565656;
 .mid-content blockquote:after{
 	content: url(../images/quote-grey2.png) no-repeat center
 }
+/******************************************************************/
 
 .mid-content cite{
 	position:absolute;
